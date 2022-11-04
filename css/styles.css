@@ -539,6 +539,8 @@ img {
 .list-text {
   font-size: 16px;
   line-height: 1.88;
+  color: var(--prime-text);
+
 }
 .portfolio-text {
   padding: 20px 24px;
@@ -596,6 +598,7 @@ img {
   height: 100%;
   top: 0;
   background-color: var(--background-backdrop);
+  transition: opacity var(--transform), visibility var(--transform);
 }
 .modal {
   position: absolute;
